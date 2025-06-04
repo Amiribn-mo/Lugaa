@@ -1,6 +1,6 @@
 {
-  "name": "Explorer Translation",
-  "short_name": "Explorer",
+  "name": "Lugaa",
+  "short_name": "Lugaa",
   "description": "A translation app for English and Amharic",
   "start_url": "/",
   "display": "standalone",

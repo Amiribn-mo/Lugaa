@@ -86,7 +86,7 @@ const Display = ({ initialText = '', initialTranslation = '', direction }: Displ
           value={inputText}
           onChange={(e) => setInputText(e.target.value)}
           placeholder=""
-          className="peer w-full pl-6 pr-4 pt-6 pb-2 text-sm sm:text-base bg-white border border-gray-200 rounded-lg shadow-md focus:border-transparent focus:ring-2 focus:ring-indigo-300 focus:outline-none transition-all duration-300 delay-200 placeholder-transparent h-32 sm:h-60"
+          className="peer w-full pl-6 pr-4 pt-6 pb-2 text-sm sm:text-base bg-white border border-gray-200 rounded-lg shadow-md focus:border-transparent focus:ring-2 focus:ring-indigo-300 focus:outline-none transition-all duration-300 delay-200 placeholder-transparent h-32 sm:h-80"
         />
         <label
           htmlFor="input"
@@ -99,7 +99,7 @@ const Display = ({ initialText = '', initialTranslation = '', direction }: Displ
         value={error || translatedText}
         readOnly
         placeholder={direction === 'en|am' ? 'Translated Amharic text will appear here' : 'Translated English text will appear here'}
-        className="peer w-full pl-6 pr-4 pt-6 pb-2 text-sm sm:text-base bg-white border border-gray-200 rounded-lg shadow-lg focus:border-transparent focus:ring-2 focus:ring-indigo-300 focus:outline-none transition-all duration-300 delay-200 placeholder-transparent h-32 sm:h-60"
+        className="peer w-full pl-6 pr-4 pt-6 pb-2 text-sm sm:text-base bg-white border border-gray-200 rounded-lg shadow-lg focus:border-transparent focus:ring-2 focus:ring-indigo-300 focus:outline-none transition-all duration-300 delay-200 placeholder-transparent h-32 sm:h-80"
       />
       <button
         onClick={handleTranslate}
