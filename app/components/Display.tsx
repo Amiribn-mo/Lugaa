@@ -105,8 +105,11 @@ const Display = ({ initialText = '', initialTranslation = '', direction }: Displ
         onClick={handleTranslate}
         className="bg-indigo-500 text-white px-4 py-2 rounded-lg hover:bg-indigo-600 transition"
       >
-        Translate Now
+        {/* Translate Now */}
       </button>
+
+      <p className='text-white font-semibold p-5 '>{inputText} : {translatedText}</p>
+     
     </div>
   );
 };
